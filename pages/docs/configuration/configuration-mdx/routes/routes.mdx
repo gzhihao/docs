@@ -6,7 +6,7 @@ import { GenericLink } from '~/components/text/link'
 
 export const meta = {
   editUrl: 'pages/docs/configuration/configuration-mdx/routes/routes.mdx',
-  lastEdited: '2019-10-11T12:17:30.000Z'
+  lastEdited: '2019-10-11T15:04:25.000Z'
 }
 
 # Routes
@@ -243,7 +243,9 @@ As an example, you can use this property when you have an API endpoint and only 
   .
 </Note>
 
-## Cascading Order
+## Advanced
+
+### Cascading Order
 
 Routes are applied in the order they are listed in the `routes` array. Take the following configuration; for example:
 
@@ -283,7 +285,7 @@ The correct configuration for all routes to take affect would be the following:
 
 This type of configuration can be seen in [single-page applications](https://en.wikipedia.org/wiki/Single-page_application) where custom paths need to route to the `index.html` file.
 
-## Route Parameters
+### Route Parameters
 
 <Note>
   <b>This method is for advanced usecases</b> when using route parameters and
@@ -347,7 +349,7 @@ If you are using a Next.js app and want to learn more about using custom routes 
   Custom Routes with Next.js and ZEIT Now.
 </Card>
 
-## Wildcard Routes
+### Wildcard Routes
 
 Sometimes, you will have wildcard routes that overlap with other routes. For example,
 
@@ -383,10 +385,6 @@ You might find that there are many routes without a `dest`. These routes can be 
 </Caption>
 
 In this example, handle filesystem expands to route `/about` and `/contact`.
-
-## Advanced Routing
-
-This section intends to cover a number of advanced uses for routes, providing examples that can be adapted for use in your project.
 
 ### Custom 404
 
@@ -659,6 +657,6 @@ In order to make `/` use `www/index.html`, you have to create a route:
 
 `(?!blog/?)` is a negative lookahead and ensures the route doesn't start with `/blog/`.
 
-## Limits
+### Limits
 
 There is a limit of 256 route objects within a `routes` array. If there are more than this limit, the deployment will fail.

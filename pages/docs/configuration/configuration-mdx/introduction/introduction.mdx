@@ -1,0 +1,24 @@
+import Card from '~/components/card'
+import Example from '~/components/example'
+import { Code, InlineCode } from '~/components/text/code'
+import { P } from '~/components/text'
+import { GenericLink } from '~/components/text/link'
+import Note from '~/components/text/note'
+
+export const meta = {
+  editUrl:
+    'pages/docs/configuration/configuration-mdx/introduction/introduction.mdx',
+  lastEdited: '2019-10-11T15:04:25.000Z'
+}
+
+# Configuration
+
+## Introduction
+
+When using [Now CLI](/download), [Now for GitHub](/docs/v2/advanced/now-for-github), or [Now for GitLab](/docs/v2/advanced/now-for-gitlab), the configuration for your deployment is read from the `now.json` file.
+
+The parameters stored in that file are passed to the [Deployment Creation API endpoint](/docs/api/v2#endpoints/deployments/create-a-new-deployment), which performs validation and stores the metadata in our backend.
+
+The following sections describe each field allowed in a `now.json` configuration file and how to use them.
+
+Each deployment receives and understands the `now.json` configuration as instructions of how to build and then act when deployed.
