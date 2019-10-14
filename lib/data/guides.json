@@ -32,10 +32,10 @@
     "title": "Deploying Apollo Server to ZEIT Now",
     "description": "Deploy Your Apollo GraphQL Server to ZEIT Now.",
     "published": "2019-01-24T03:00:00.860Z",
-    "authors": ["unicodeveloper, msweeneydev"],
+    "authors": ["unicodeveloper", "msweeneydev"],
     "url": "/guides/deploying-apolloserver-to-now",
     "editUrl": "pages/guides/deploying-apolloserver-to-now.mdx",
-    "lastEdited": "2019-10-02T14:07:07.000Z"
+    "lastEdited": "2019-10-11T23:41:55.000Z"
   },
   {
     "title": "Create a Charge App That Builds and Deploys with ZEIT Now",
@@ -49,13 +49,23 @@
   },
   {
     "title": "Deploy Docusaurus Sites with ZEIT Now",
-    "description": "Create a Docusaurus website and deploy it live with ZEIT Now.",
+    "description": "Docusaurus with ZEIT Now makes it easy to create and deploy open source project documentation.",
     "published": "2019-10-09T12:00:00.860Z",
     "authors": ["msweeneydev"],
     "url": "/guides/deploying-docusaurus-with-zeit-now",
-    "image": "https://og-image.now.sh/**Deploying%20Docusaurus%20Sites**%20%3Cbr%2F%3E%20with%20ZEIT%20Now.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-black-triangle.svg&images=https%3A%2F%2Fv2.docusaurus.io%2Fimg%2Fdocusaurus_keytar.svg&widths=250&widths=350&heights=250&heights=300",
+    "image": "https://og-image.now.sh/**Deploy%20Docusaurus%20Sites**%20%3Cbr%2F%3E%20with%20ZEIT%20Now.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-black-triangle.svg&images=https%3A%2F%2Fv2.docusaurus.io%2Fimg%2Fdocusaurus_keytar.svg&widths=250&widths=350&heights=250&heights=300",
     "editUrl": "pages/guides/deploying-docusaurus-with-zeit-now.mdx",
-    "lastEdited": "2019-10-09T13:49:23.000Z"
+    "lastEdited": "2019-10-14T11:01:35.000Z"
+  },
+  {
+    "title": "Create a Ember App and Deploy It with ZEIT Now",
+    "description": "Create and deploy an Ember app with ZEIT Now.",
+    "published": "2019-10-11T12:00:00.860Z",
+    "authors": ["msweeneydev"],
+    "url": "/guides/deploying-ember-with-zeit-now",
+    "image": "https://og-image.now.sh/**Deploy%20Ember%20Apps**%20%20%3Cbr%2F%3E%20with%20ZEIT%20Now.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-black-triangle.svg&images=https%3A%2F%2Femberjs.com%2Fimages%2Fbrand%2Fember_Tomster-Lockup-b368131eb80ecbcbaf2d23fd4cb27295.png&widths=300&widths=350&heights=300&heights=350",
+    "editUrl": "pages/guides/deploying-ember-with-zeit-now.mdx",
+    "lastEdited": "2019-10-11T20:05:29.000Z"
   },
   {
     "title": "Create a Gatsby Website and Deploy It with ZEIT Now",
@@ -146,14 +156,14 @@
     "lastEdited": "2019-10-02T14:07:07.000Z"
   },
   {
-    "title": "Create and Deploy a SendGrid-Powered Next.js and Node.js Contact Form with ZEIT Now",
+    "title": "Deploy a SendGrid-Powered Contact Form with ZEIT Now",
     "description": "Create a SendGrid-Powered Next.js and Node.js Contact Form and deploy it with ZEIT Now.",
     "published": "2019-10-10T17:00:00.000Z",
     "authors": ["msweeneydev"],
     "url": "/guides/deploying-nextjs-nodejs-and-sendgrid-with-zeit-now",
     "image": "https://og-image.now.sh/**Deploy%20a%20Next.js%20and%20SendGrid%20App**%20%3Cbr%2F%3E%20with%20ZEIT%20Now.png?theme=light&md=1&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fzeit-black-triangle.svg&images=https%3A%2F%2Fseeklogo.com%2Fimages%2FN%2Fnext-js-logo-7929BCD36F-seeklogo.com.png&images=https%3A%2F%2Fsendgrid.com%2Fwp-content%2Fthemes%2Fsgdotcom%2Fpages%2Fresource%2Fbrand%2F2016%2FSendGrid-Logomark.png&widths=250&widths=auto&widths=300&heights=250&heights=auto&heights=300",
     "editUrl": "pages/guides/deploying-nextjs-nodejs-and-sendgrid-with-zeit-now.mdx",
-    "lastEdited": "2019-10-10T12:40:08.000Z"
+    "lastEdited": "2019-10-11T09:29:47.000Z"
   },
   {
     "title": "Getting Started with Next.js and ZEIT Now",
@@ -294,10 +304,10 @@
     "title": "Prevent Uploading Source Paths with `.nowignore` on ZEIT Now",
     "description": "Use a .nowignore file to prevent the uploading of source paths when deploying with ZEIT Now.",
     "published": "2019-01-24T03:00:00.860Z",
-    "authors": ["unicodeveloper, msweeneydev"],
+    "authors": ["unicodeveloper", "msweeneydev"],
     "url": "/guides/prevent-uploading-sourcepaths-with-nowignore",
     "editUrl": "pages/guides/prevent-uploading-sourcepaths-with-nowignore.mdx",
-    "lastEdited": "2019-10-02T12:59:12.000Z"
+    "lastEdited": "2019-10-11T23:41:55.000Z"
   },
   {
     "title": "Redirect from www. To Your Root Domain with ZEIT Now",
@@ -325,6 +335,15 @@
     "url": "/guides/setup-namecheap-domain-now",
     "editUrl": "pages/guides/setup-namecheap-domain-now.mdx",
     "lastEdited": "2019-10-02T14:07:07.000Z"
+  },
+  {
+    "title": "Transferring Domains to ZEIT Now",
+    "description": "How to transfer your domain to ZEIT Now.",
+    "published": "2019-10-11T17:00:00.860Z",
+    "authors": ["msweeneydev"],
+    "url": "/guides/transferring-domains-to-zeit-now",
+    "editUrl": "pages/guides/transferring-domains-to-zeit-now.mdx",
+    "lastEdited": "2019-10-11T14:28:51.000Z"
   },
   {
     "title": "How to Update Now CLI",
