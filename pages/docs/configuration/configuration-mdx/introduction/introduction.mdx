@@ -15,10 +15,15 @@ export const meta = {
 
 ## Introduction
 
-When using [Now CLI](/download), [Now for GitHub](/docs/v2/advanced/now-for-github), or [Now for GitLab](/docs/v2/advanced/now-for-gitlab), the configuration for your deployment is read from the `now.json` file.
+This page is a reference to the different ways of configuring your ZEIT Now projects and Now CLI.
 
-The parameters stored in that file are passed to the [Deployment Creation API endpoint](/docs/api/v2#endpoints/deployments/create-a-new-deployment), which performs validation and stores the metadata in our backend.
+Using a `now.json` configuration file, placed at the root of a project, you can provide a list of options that changes the default behavior of the ZEIT Now platform.
 
-The following sections describe each field allowed in a `now.json` configuration file and how to use them.
+Configuration options for the following are described on this page:
 
-Each deployment receives and understands the `now.json` configuration as instructions of how to build and then act when deployed.
+| Category                              | Description                                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Project](#project)                   | General configuration options that describe how your project should act with ZEIT Now. |
+| [Git Integrations](#git-integrations) | Conigurations options related to ZEIT Now Git integrations.                            |
+| [Routes](#routes)                     | Routing configuration for projects with ZEIT Now.                                      |
+| [Global](#global)                     | Configuration options for usage of Now CLI.                                            |
